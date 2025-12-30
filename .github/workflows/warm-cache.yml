@@ -1,14 +1,11 @@
 name: Warm cache CHILLROAD
-
 on:
   schedule:
     - cron: "*/10 * * * *"
   workflow_dispatch:
-
 jobs:
   warm:
     runs-on: ubuntu-latest
-
     steps:
       - name: Warm pages
         run: |
@@ -25,9 +22,7 @@ jobs:
             "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/led-spider-farmer/sf-series/"
             "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/led-spider-farmer/se-series/"
             "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/led-spider-farmer/garden-series/"
-            
           )
-
           for URL in "${URLS[@]}"; do
             echo "Warming $URL"
             curl -L -A "Mozilla/5.0 (CHILLROAD Cache Warm)" -o /dev/null "$URL"
