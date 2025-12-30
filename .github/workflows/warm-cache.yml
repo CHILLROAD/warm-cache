@@ -16,7 +16,47 @@ jobs:
             "https://chill-road.com/"
             "https://chill-road.com/fr/"
             "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/"
+            "https://chill-road.com/fr/categorie-produit/tentes-de-culture/"
+            "https://chill-road.com/fr/categorie-produit/kits-de-culture/"
+            "https://chill-road.com/fr/categorie-produit/ventilation-climat/"
+            "https://chill-road.com/fr/categorie-produit/controleurs-intelligents/"
+            "https://chill-road.com/fr/categorie-produit/accessoires/"
+        
+            "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/led-spider-farmer/"
+            "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/led-spider-farmer/g-series/"
             "https://chill-road.com/fr/produit/g1500-150w-bridgelux-led-spectre-complet-wifi-bluetooth-app-control-dimmable-spider-farmer/"
+            "https://chill-road.com/fr/produit/g3000-300w-bridgelux-led-spectre-complet-wifi-bluetooth-app-control-dimmable-spider-farmer/"
+            "https://chill-road.com/fr/produit/g4500-320w-bridgelux-led-spectre-complet-wifi-bluetooth-app-control-dimmable-spider-farmer/"
+            "https://chill-road.com/fr/produit/g5000-480w-bridgelux-led-spectre-complet-wifi-bluetooth-app-control-dimmable-spider-farmer/"
+            "https://chill-road.com/fr/produit/g8600-800w-bridgelux-led-spectre-complet-wifi-bluetooth-app-control-dimmable-spider-farmer/" 
+            "https://chill-road.com/fr/produit/g1000w-bridgelux-led-spectre-complet-wifi-bluetooth-app-control-dimmable-spider-farmer/"
+            
+            "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/led-spider-farmer/sf-series/"
+            "https://chill-road.com/fr/produit/sf1000d-100w-led-spectre-complet-spider-farmer/"
+            "https://chill-road.com/fr/produit/sf1000-100w-samsung-lm301h-evo-led-spectre-complet-spider-farmer/" 
+            "https://chill-road.com/fr/produit/sf2000-200w-samsung-lm301h-evo-led-spectre-complet-spider-farmer/"
+            "https://chill-road.com/fr/produit/sf2000pro-200w-samsung-lm301h-evo-led-spectre-complet-spider-farmer/"
+            "https://chill-road.com/fr/produit/sf4000-450w-samsung-lm301h-evo-led-spectre-complet-spider-farmer/" 
+            "https://chill-road.com/fr/produit/sf7000-650w-led-spectre-complet-pliable-spider-farmer/"
+
+            "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/led-spider-farmer/se-series/"
+            "https://chill-road.com/fr/produit/se1500-150w-samsung-lm301h-evo-led-spectre-complet-spider-farmer/"
+            "https://chill-road.com/fr/produit/se3000-300w-samsung-lm301h-evo-led-spectre-complet-spider-farmer/" 
+            "https://chill-road.com/fr/produit/se4500-320w-samsung-lm301h-evo-led-spectre-complet-spider-farmer/"
+            "https://chill-road.com/fr/produit/se5000-480w-samsung-lm301h-evo-led-spectre-complet-spider-farmer/"
+            "https://chill-road.com/fr/produit/se7000-730w-samsung-lm301h-evo-led-spectre-complet-spider-farmer/" 
+            "https://chill-road.com/fr/produit/se1000w-samsung-lm301h-evo-led-spectre-complet-spider-farmer/"
+            
+            "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/led-spider-farmer/garden-series/"
+            "https://chill-road.com/fr/produit/barres-led-lateral-glow30-32-w-spectre-complet-spider-farmer/"
+            "https://chill-road.com/fr/produit/barres-led-lateral-glow80-80-w-spectre-complet-spider-farmer/" 
+            "https://chill-road.com/fr/produit/barres-led-suspendue-glowr40-40-w-spectre-rouge-660nm-spider-farmer/"
+            "https://chill-road.com/fr/produit/barres-led-suspendue-glowr80-80-w-spectre-rouge-660nm-spider-farmer/"
+            "https://chill-road.com/fr/produit/panneau-sf300-osram-led-33w-spectre-complet-spider-farmer/" 
+            "https://chill-road.com/fr/produit/panneau-sf600-osram-led-72w-spectre-complet-spider-farmer/"
+            
+            "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/led-mars-hydro/"
+            
           )
 
           for URL in "${URLS[@]}"; do
