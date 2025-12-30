@@ -1,0 +1,25 @@
+name: Warm cache CHILLROAD
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # toutes les 10 minutes
+  workflow_dispatch:        # permet de lancer manuellement
+
+jobs:
+  warm:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Warm pages
+        run: |
+          URLS=(
+            "https://chill-road.com/"
+            "https://chill-road.com/fr/"
+            "https://chill-road.com/fr/categorie-produit/eclairages-horticoles/"
+            "https://chill-road.com/fr/produit/g1500-150w-bridgelux-led-spectre-complet-wifi-bluetooth-app-control-dimmable-spider-farmer/"
+          )
+
+          for URL in "${URLS[@]}"; do
+            echo "Warming $URL"
+            curl -I -A "Mozilla/5.0 (CHILLROAD Cache Warm)" "$URL"
+          done
